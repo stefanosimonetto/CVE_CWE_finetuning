@@ -1,0 +1,9 @@
+dataset: /home/simonettos/SOTA/cve_classifier_comparison/dataset_descr/
+model: CNN
+k_fold: 10
+epochs: 10
+batch_size: 64
+max_seq: 256
+lr: 0.0006
+require_improvement: 2
+device: cuda
